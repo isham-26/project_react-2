@@ -1,0 +1,24 @@
+nav{
+    background-color: #c9c9c9;
+    color: white;
+    box-shadow: 0 0 10px rgb(180, 180, 180);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0%;
+    z-index: 10;
+    padding: 10px;
+    position: sticky;
+}
+.main {
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.main > a{
+    margin: 0 10px 0 10px;
+    font: 500 1rem cursive;
+    text-decoration: none;
+}
